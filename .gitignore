@@ -1,79 +1,11 @@
-1 Compiled source #
-2	###################
-3	*.com
-4	*.class
-5	*.dll
-6	*.exe
-7	*.o
-8	*.so
-9	
-10	# Packages #
-11	############
-12	# it's better to unpack these files and commit the raw source
-13	# git has its own built in compression methods
-14	*.7z
-15	*.dmg
-16	*.gz
-17	*.iso
-18	# *.jar
-19	*.rar
-20	*.tar
-21	*.zip
-22	
-23	# Logs and databases #
-24	######################
-25	*.log
-26	# *.sql
-27	*.sqlite
-28	
-29	# Image manipulation #
-30	######################
-31	*.resized.*
-32	*screenshoot*
-33	
-34	# OS generated files #
-35	######################
-36	.DS_Store
-37	.DS_Store?
-38	._*
-39	.Spotlight-V100
-40	.Trashes
-41	Icon?
-42	ehthumbs.db
-43	Thumbs.db
-44	
-45	# Android Folder #
-46	##################
-47	/bin/*
-48	/bin
-49	/gen/*
-50	/gen
-51	/doc/internal/*
-52	/doc/stats/*
-53	/doc/API/*
-54	/libs/android-support-v4.jar
-55	.settings/*
-56	/lint.xml
-57	
-58	.classpath
-59	.project
-60	local.properties
-61	.svn
-62	
-63	# Libs Sherlock #
-64	#################
-65	/libs/sherlock/*
-66	
-67	# Gradle #
-68	##########
-69	/build
-70	/.gradle
-71	/.idea
-72	*.iml
-73	
-74	# Harmony Backup #
-75	##################
-76	.*.back
-77	
-78	# Custom rules #
-79	################
+# Built application files
+*.apk
+*.ap_
+# Files for the Dalvik VM
+*.dex
+# Java class files
+*.class
+# Generated files
+/bin/*
+# Log Files
+*.log
