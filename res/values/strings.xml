@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swtorelite</string>
+
+    <!-- Skill Screen -->
+    <string name="skillsLbl">Skills</string>
+    <string name="collectionlbl">Collections Skills</string>
+    <string name="btn_skill_artifice">Artifice</string>
+    <string name="btn_skill_biochem">Biochem</string>
+    <string name="btn_skill_cybertech">Cybertech</string>
+    <string name="btn_skill_armstech">Armstech</string>
+    <string name="btn_skill_armortech">Armortech</string>
+    <string name="btn_skill_synthweaving">Synthweaving</string>
+
+    <!-- Tab Screen -->
+    <string name="rangelbl">Select a rank</string>
+
+</resources>

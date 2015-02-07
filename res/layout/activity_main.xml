@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.projetswtorelite2014.MainActivity" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/swtor_logo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/skillsLbl"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btn_skill_artifice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/subtlety"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_skill_artifice" />
+
+        <Button
+            android:id="@+id/btn_skill_biochem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_skill_artifice"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/biochemistery"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_skill_biochem" />
+
+        <Button
+            android:id="@+id/btn_skill_cybertech"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_skill_biochem"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/cybergenetics"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_skill_cybertech" />
+
+        <Button
+            android:id="@+id/btn_skill_armstech"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_skill_cybertech"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/weapon_manufacturing"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_skill_armstech" />
+
+        <Button
+            android:id="@+id/btn_skill_armortech"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_skill_armstech"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/armor_manufacturing"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_skill_armortech" />
+
+        <Button
+            android:id="@+id/btn_skill_synthweaving"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_skill_armortech"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/synthetissage"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_skill_synthweaving" />
+    </RelativeLayout>
+
+</ScrollView>
